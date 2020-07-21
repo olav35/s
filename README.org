@@ -1,0 +1,2 @@
+* S
+S is a simple CLI tool for exploring WebSocket APIs.
