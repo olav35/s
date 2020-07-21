@@ -1,2 +1,17 @@
 * S
 S is a simple CLI tool for exploring WebSocket APIs.
+
+** Installation
+#+begin_src sh
+npm install -g "https://github.com/olav35/s"
+#+end_src
+
+** Usage
+There is not a lot too this tool.
+
+To connect to a WebSocket run s with the URL as a CLI argument.
+#+begin_src
+s localhost:3002
+#+end_src
+
+Thereafter you can enter your payloads and they will be sent to the WebSocket on newline.
