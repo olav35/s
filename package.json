@@ -1,0 +1,22 @@
+{
+  "name": "w",
+  "version": "1.0.0",
+  "description": "A CLI tool for exploring WebSocket APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olav35/w.git"
+  },
+  "author": "Olav Fosse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olav35/w/issues"
+  },
+  "homepage": "https://github.com/olav35/w#readme",
+  "dependencies": {
+    "ws": "^7.3.1"
+  }
+}
