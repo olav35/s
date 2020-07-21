@@ -4,6 +4,10 @@ const url = process.argv[2]
 const WebSocket = new ws(url)
 const stdin = process.openStdin()
 
+if(process.argv[3]){
+  WebSocket.onopen = () => WebSocket.send(process.argv[3])
+}
+
 stdin.addListener("data", async (data) => {
   console.log('SENT---------------------------------------------------------------------------')
   const input = data.toString().trim()
