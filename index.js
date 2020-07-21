@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const ws = require('ws')
 
 const url = process.argv[2]

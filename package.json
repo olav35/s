@@ -1,5 +1,5 @@
 {
-  "name": "w",
+  "name": "s",
   "version": "1.0.0",
   "description": "A CLI tool for exploring WebSocket APIs",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/olav35/w#readme",
   "dependencies": {
     "ws": "^7.3.1"
+  },
+  "bin": {
+    "s": "./index.js"
   }
 }
