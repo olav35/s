@@ -17,7 +17,11 @@ WebSocket.onopen = () => {
  })
  
  WebSocket.onmessage = ({data}) => {
-   console.log(JSON.parse(data))
+   try {
+     console.log(JSON.parse(data))
+   } catch {
+     console.log(data)
+   }
    console.log('RECEIVED-----------------------------------------------------------------------')
  }
  
