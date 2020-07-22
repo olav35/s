@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olav35/w.git"
+    "url": "git+https://github.com/olav35/s.git"
   },
   "author": "Olav Fosse",
-  "license": "ISC",
+  "license": "ABRMS",
   "bugs": {
-    "url": "https://github.com/olav35/w/issues"
+    "url": "https://github.com/olav35/s/issues"
   },
-  "homepage": "https://github.com/olav35/w#readme",
+  "homepage": "https://github.com/olav35/s#readme",
   "dependencies": {
     "ws": "^7.3.1"
   },
