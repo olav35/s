@@ -2,6 +2,14 @@
 const ws = require('ws')
 
 const url = process.argv[2]
+
+if(url === undefined) {
+  const program_name = require('path').basename(process.argv[1])
+  console.error(`usage: ${program_name} url [payload]`)
+  process.exitCode = 1
+  return
+}
+
 const WebSocket = new ws(url)
 const stdin = process.openStdin()
 
